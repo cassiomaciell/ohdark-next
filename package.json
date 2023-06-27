@@ -1,0 +1,51 @@
+{
+	"name": "ohdark-next",
+	"displayName": "OhDark Next",
+	"description": "Just another dark theme.",
+	"version": "1.0.0",
+	"scripts": {
+		"package": "vsce package",
+		"publish": "vsce publish"
+	},
+	"author": {
+		"url": "https://github.com/cassiomaciell",
+		"name": "Cássio A. Maciel"
+	},
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"keywords": [
+		"theme",
+		"dark"
+	],
+	"publisher": "Cássio A. Maciel",
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#121212",
+		"theme": "dark"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cassiomaciell/ohdark-next"
+	},
+	"engines": {
+		"vscode": "^1.79.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "OhDark Next - Github Dark Pro",
+				"uiTheme": "vs-dark",
+				"path": "./themes/OhDark-Next-github-dark-pro.json"
+			}
+		]
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@vscode/vsce": "^2.19.0"
+	}
+}
