@@ -5,7 +5,7 @@
 	"version": "1.0.0",
 	"scripts": {
 		"package": "vsce package",
-		"publish": "vsce publish"
+		"vs:publish": "vsce publish"
 	},
 	"author": {
 		"url": "https://github.com/cassiomaciell",
@@ -19,7 +19,7 @@
 		"theme",
 		"dark"
 	],
-	"publisher": "Cássio A. Maciel",
+	"publisher": "CassioMaciel",
 	"icon": "icon.png",
 	"galleryBanner": {
 		"color": "#121212",
