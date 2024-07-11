@@ -2,7 +2,7 @@
 	"name": "ohdark-next",
 	"displayName": "OhDark Next",
 	"description": "Just another dark theme.",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"scripts": {
 		"package": "vsce package",
 		"vs:publish": "vsce publish"
